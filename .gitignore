@@ -1,0 +1,49 @@
+# Secrets and local configuration: never committed
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+**/keys/
+*.token
+.npmrc
+.netrc
+
+# Agent and editor local state
+.claude/
+.codex/
+.kimi*/
+.cursor/
+.vscode/
+.idea/
+*.local.json
+
+# Runtime data and backups (kept in Docker volumes, not in git)
+data/
+volumes/
+backups/
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.log
+logs/
+
+# Build output and dependencies
+node_modules/
+dist/
+build/
+.next/
+coverage/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
